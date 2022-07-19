@@ -1,6 +1,6 @@
 <?php
-// On met un header qui va nous permettre d'utiliser AJAX *=URL
-header('Access-Control-Allow-Origin: *');
+// On met un header qui va nous permettre d'utiliser AJAX 
+header('Access-Control-Allow-Origin: *'); // on autorise l'accès à *(tout le monde) ou une URL d'un site web
 
 // Lui dire qu'on lui renvoie du JSON
 
